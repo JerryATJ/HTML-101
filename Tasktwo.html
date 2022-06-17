@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secondary school form</title>
+  </head>
+  <body>
+    <h1 style="font-size: 40px; text-align: center">
+      Our Lady and St.Francis Catholic College Osogbo
+    </h1>
+    <h2 style="font-size: 30px; text-align: center">
+      Admission Form 2022/2023 session
+    </h2>
+    <br />
+
+    <form action="#" method="get">
+      <label for="First name">First name:</label>
+      <input type="text" name="First name" id="First name" required />
+
+      <label for="Last name">Last name:</label>
+      <input
+        type="text"
+        name="Last name"
+        id="Last name"
+        placeholder="Surname"
+      />
+      <br />
+      <br />
+
+      <label for="Username">Username:</label>
+      <input type="text" name="Username" id="Username" /> <br />
+      <br />
+
+      <label for="Password">Password:</label>
+      <input
+        type="password"
+        name="Password"
+        id="Password"
+        alt="Your Password"
+        placeholder="case sensitive"
+      /><br /><br />
+
+      <label for="Email">Email:</label>
+      <input type="email" name="Email" id="Email" /><br /><br />
+
+      <label for="Age">Age of Applicant(15 and below)</label>
+      <input type="number" name="Age" id="Age" min="0" max="15" /> <br /><br />
+
+      <label for="stateofOrigin">Applicant's state of Origin</label>
+      <select id="stateofOrigin" name="State of Origin">
+        <option value="Osun">Osun</option>
+        <option value="Oyo">Oyo</option>
+        <option value="Ondo">Ondo</option>
+        <option value="Lagos">Lagos</option>
+        <option value="Ekiti">Ekiti</option></select
+      ><br /><br />
+      <p>Tell us alittle about yourself</p>
+      <label for="About applicant"></label>
+      <textarea name="AboutApplicant" id="Aboutapplicant" cols="30" rows="10">
+ type here</textarea
+      ><br /><br />
+      <button onclick="Test">Proceed to Test</button><br /><br />
+
+      <fieldset>
+        <legend style="text-align: center">Quick Test</legend>
+        <h3>Chemistry</h3>
+        <ol>
+          <li>What is the chemical formula for water?</li>
+          <input type="radio" name="Water" id="A" />H<sub>2</sub>O
+          <br />
+          <input type="radio" name="Water" id="B" />HO2
+          <br />
+          <input type="radio" name="Water" id="C" />2HO
+          <br />
+          <br />
+          <li>Hydrogen has how many Atomic number(s)?</li>
+          <input type="radio" name="Hydrogen" id="A" />1<br />
+          <input type="radio" name="Hydrogen" id="B" />2<br />
+          <input type="radio" name="Hydrogen" id="C" />3<br />
+          <br />
+          <li>
+            which of the following is an element on the periodic table? <br /><i
+              >tick the correct answer(s)</i
+            >
+          </li>
+          <input type="checkbox" name="Element" id="1" />Sodium
+          <br />
+          <input type="checkbox" name="Element" id="1" />Sugercane
+          <br />
+          <input type="checkbox" name="Element" id="1" />Oxygen
+          <br />
+          <input type="checkbox" name="Element" id="1" />Rice
+          <br />
+          <input type="checkbox" name="Element" id="1" />Onion
+          <br />
+          <input type="checkbox" name="Element" id="1" />Aluminium
+          <br />
+          <input type="checkbox" name="Element" id="1" />Ethereum
+          <br />
+        </ol>
+      </fieldset>
+      <br /><br />
+      <input type="submit" name="submit Application" id="submit" />
+    </form>
+  </body>
+</html>
